@@ -1,15 +1,11 @@
 Meteor Bootstrap-3
 ==================
 
-[Bootstrap 3.x](http://getbootstrap.com) packaged for [Meteor](http://meteor.com).
+This package was a temporary way to get Bootstrap 3 into Meteor apps approaching the 1.0 release.
 
-
-### Installation
-
-With Meteor 0.9 and above, install using:
+We recommend you use (or switch to) the [official
+integration](https://atmospherejs.com/twbs/bootstrap) of Bootstrap 3:
 
 ```sh
-$ meteor add mizzao:bootstrap-3
+$ meteor add twbs:bootstrap
 ```
-
-If you haven't already, make sure to check out the [getting started template](http://getbootstrap.com/getting-started/#template).
