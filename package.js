@@ -10,6 +10,10 @@ Package.onUse(function (api) {
 
   api.use('jquery');
 
+  //when jqueryui is used with bootstrap, jqueryui has to come first or the
+  //tooltip plugins step on each other: https://github.com/twbs/bootstrap/issues/6303ls Package
+  api.use("mizzao:jquery-ui", 'client', { weak: true });
+
   var path = Npm.require('path');
   var asset_path = path.join('bootstrap-3');
   api.addFiles(path.join(asset_path, 'css', 'bootstrap.css'), 'client');
